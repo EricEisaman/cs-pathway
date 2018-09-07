@@ -1,5 +1,5 @@
  ![geometry game](https://cdn.glitch.com/162b879e-fd42-40d9-8519-671d783b8c70%2Fgeo-game.gif?1534009918502) 
-# Geometry Game 
+# CS Pathway
 ____
 ____
 
