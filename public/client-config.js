@@ -110,7 +110,9 @@ window.config = {
    outerColor: "white"
  },
  mobile:{
-   thruster_icon: "https://cdn.glitch.com/dd72d0a0-2747-40ff-8463-f7755366f80f%2Fthrusters.png"
+   thruster_icon: "https://cdn.glitch.com/162b879e-fd42-40d9-8519-671d783b8c70%2Fjump_fly_btn.png",
+   joystick_outer_color: "rgba(5, 31, 101, 0.2)",
+   joystick_inner_color: "rgba(5, 31, 101, 0.4)"
  },
  vr: false
 }
