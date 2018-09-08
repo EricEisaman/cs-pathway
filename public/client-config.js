@@ -21,7 +21,7 @@ window.config = {
   speed: 140
  },
  sounds:{
-  playerJoined: 'https://cdn.glitch.com/162b879e-fd42-40d9-8519-671d783b8c70%2Fbell.mp3?1534013494867',
+  playerJoined: 'https://cdn.glitch.com/162b879e-fd42-40d9-8519-671d783b8c70%2Frooster.mp3',
   playerLeft:  'https://cdn.glitch.com/3294c4a3-a3d8-412f-a31e-1e03d1cd1cbd%2Fplayer-leave.mp3?1532440646173'
  },
  msg:{
@@ -79,7 +79,9 @@ window.config = {
    // from 0 to 2
    pitch: 1,
    // from 0 to 1
-   volume: 1
+   volume: 1,
+   // delay in milliseconds 
+   welcomeDelay: 2000
  },
  physics:{
    //This gravity affects the players
