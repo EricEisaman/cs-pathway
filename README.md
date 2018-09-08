@@ -54,7 +54,7 @@ ____
 In the game browser console add users with the following pattern:
 ![add user](https://cdn.glitch.com/8cdffa44-0009-4d0b-89c7-731fef3fef0b%2Fadduser.png?1533445801204)
 
-If you forget the Users you added, open the server **Activity Log** and reboot the server by adding an extra space after all the code in the **server.js file**.  The Users will be printed in the **Activity Log**.
+If you forget the Users you added, open the server **Activity Log** and reboot the server by adding an extra space after all the code in the **server.js file**.  The user names and passwords will be printed in the **Activity Log**.
   
   ____
 
