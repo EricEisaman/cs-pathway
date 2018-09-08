@@ -2,7 +2,7 @@ window.socket = window.io();
 window.socket.on('connect', ()=>{
   console.log(`My socket.id is ${window.socket.id}`);
   console.log('Client.js can initialize my playerData now.');
-  window.socket.playerData = {position:{},rotation:{},faceIndex:Math.floor(Math.random() * window.config.avatar.faces.length)};
+  window.socket.playerData = {position:{},rotation:{},faceIndex:Math.floor(Math.random() * window.config.avatar.buttonFaces.length)};
   window.socket.lastPlayerData = {position:{},rotation:{},faceIndex:0};
 });
 window.socket.on('disconnect', ()=>{

@@ -25,6 +25,7 @@ document.querySelector('a-scene').addEventListener('loaded', function () {
   
   var player = document.querySelector('#player');
   window.player = player;
+  player.setAttribute('universal-controls',`movementAcceleration: ${window.config.avatar.speed}`)
   player.components.camera.system.updateProperties();
   setTimeout(()=>{player.pause()},600);
   window.login = document.querySelector('#login');

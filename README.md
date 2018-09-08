@@ -1,9 +1,9 @@
  ![geometry game](https://cdn.glitch.com/162b879e-fd42-40d9-8519-671d783b8c70%2Fgeo-game.gif?1534009918502) 
-# CS Pathway
+# CS1
 ____
 ____
 
-## **Remixing Instructions**
+## Remixing Instructions
 
 
 
@@ -32,17 +32,29 @@ In the **client-config.js** set the values for:
   - thruster colors
   - mobile thruster button icon
   - vr mode enabled / disabled
+____
+
+## Choosing a Voice
   
-Explore the different voice names by listing them in the client console with:
+Explore the different voice names by listing them in the game browser console with:
 ```js
 printVoices()
 ```
 ![names](https://cdn.glitch.com/8cdffa44-0009-4d0b-89c7-731fef3fef0b%2Fnames.png?1533445633949)
-  
-In the client console add users with the following pattern:
+ 
+Test a variety of voices in the game browser console with the following pattern using the message followed by the voice name:
+
+```js
+say("Do you like games?","Katy")
+```
+____
+
+## Adding Users
+
+In the game browser console add users with the following pattern:
 ![add user](https://cdn.glitch.com/8cdffa44-0009-4d0b-89c7-731fef3fef0b%2Fadduser.png?1533445801204)
 
-If you forget the Users you added, open the server console and reboot the server by adding a meaningless space in any server file.  The Users will be printed in the server console.
+If you forget the Users you added, open the server **Activity Log** and reboot the server by adding an extra space after all the code in the **server.js file**.  The Users will be printed in the **Activity Log**.
   
   ____
 

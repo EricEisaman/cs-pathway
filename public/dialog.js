@@ -25,11 +25,11 @@ window.dialog = {
       }
       
     });
-    window.config.avatar.faces.forEach((url,index)=>{
+    window.config.avatar.buttonFaces.forEach((url,index)=>{
       let btns = document.getElementById('btns');
       let btn = document.createElement('button');
       btn.classList = "face-btn";
-      btn.style.backgroundColor = window.config.avatar.color;
+      btn.style.backgroundColor = window.config.avatar.buttonColor;
       btn.innerHTML = '<img width=40 src="'+url+'" />';
       btn.id = index;
       btn.onclick = ()=>{

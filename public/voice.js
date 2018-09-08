@@ -8,6 +8,7 @@ window.say = function(msg,name="none given") {
     msg.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == name; })[0];
   msg.pitch = window.config.voice.pitch;
   msg.rate = window.config.voice.rate;
+  msg.volume = window.config.voice.volume;
   speechSynthesis.speak(msg);
 }
 
