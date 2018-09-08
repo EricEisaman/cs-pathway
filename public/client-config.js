@@ -106,7 +106,7 @@ window.config = {
     ]
  },
  thruster:{
-   innerColor: "purple",
+   innerColor: "orange",
    outerColor: "white"
  },
  mobile:{
