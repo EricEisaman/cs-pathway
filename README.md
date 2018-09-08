@@ -7,7 +7,7 @@ ____
 
 
 
-Set the **ADMIN_KEY** in .env. This becomes your admin user password, username **admin**, password your **ADMIN_KEY**. Create your own **.glb** models with <a href="http://pixologic.com/sculptris/" no-opener no-referer>**Sculptris**</a> and <a href="https://www.blender.org/download/" no-opener no-referer>**Blender**</a>.
+Set the **ADMIN_KEY** in .env. This becomes your admin user password, username **admin**, password your **ADMIN_KEY**. 
 
 In the **client-config.js** set the values for:
   - game name
@@ -58,8 +58,20 @@ In the game browser console add users with the following pattern:
 If you forget the Users you added, open the server **Activity Log** and reboot the server by adding an extra space after all the code in the **server.js file**.  The user names and passwords will be printed in the **Activity Log**.
   
   ____
+  
+## Choosing an Environment
 
-## **How to Play**
+Select from a variety of **environment presets**. Add your chosen preset in the **client-config.js**.
+
+![environment preset](https://cdn.glitch.com/162b879e-fd42-40d9-8519-671d783b8c70%2Fenvironment_preset.png)
+
+**Environment Presets**  
+
+![Environement Options](https://github.com/feiss/aframe-environment-component/raw/master/assets/aframeenvironment.gif?raw=true)
+
+____
+
+## How to Play
 
 Move with **WASD** and **ARROW** keys.  Jump with the **SPACE** key.
 Toggle music mute with **M** key. Play next song with **P** key. 
@@ -95,9 +107,11 @@ ____
 **Performance Test** ( 6 instances on 1 computer! )
 ![Performance Test](https://cdn.glitch.com/dd72d0a0-2747-40ff-8463-f7755366f80f%2Fperformanc_test_small_size.gif?1534356530693)
 
-**Environment Presets**  
+____
 
-![Environement Options](https://github.com/feiss/aframe-environment-component/raw/master/assets/aframeenvironment.gif?raw=true)
+## Design Avatars
+
+Create your own **.glb** avatar models with <a href="http://pixologic.com/sculptris/" no-opener no-referer>**Sculptris**</a> and <a href="https://www.blender.org/download/" no-opener no-referer>**Blender**</a>.
 
 **Sculptris for Easy Creation of Basic Model**
 
