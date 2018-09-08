@@ -74,16 +74,18 @@ ____
 ## How to Play
 
 Move with **WASD** and **ARROW** keys.  Jump with the **SPACE** key.
-Toggle music mute with **M** key. Play next song with **P** key. 
+Toggle music mute with **0** key. Play next song with **P** key. 
 
 ![UI](https://cdn.glitch.com/162b879e-fd42-40d9-8519-671d783b8c70%2Fui.png)
 
-Toggle the **Message and Avatar UI** with the **EQUALS** key. **Tab** your way through the UI elements. Once you have finished typing your message or selecting a new avatar, hit **ENTER** to submit.
+Toggle the **Message and Avatar UI** with the **EQUALS** key on desktop, **double tap** on mobile. **Tab** your way through the UI elements. Once you have finished typing your message or selecting a new avatar, hit **ENTER** to submit.
+
+Grab and move objects with **click & drag** or **click & move keys** on desktop, **hover & move or rotate** on mobile.
 
 Note: **Users cannot be logged in more than once simultaneously!**
 
 
-Pressing the **F** key or clicking the **VR Headset Icon** will take you to fullscreen mode.  Note: in fullscreen mode only movement keys are enabled.  Press the **ESC** key to exit fullscreen mode. 
+Pressing the **F** key or clicking the **VR Headset Icon**, if enabled in **client-config.js** will take you to fullscreen mode.  Note: in fullscreen mode only movement keys are enabled.  Press the **ESC** key to exit fullscreen mode. 
 
 Try the <a href="https://geometry-game.glitch.me/" no-opener no-referer>**LIVE DEMO**</a> with test users **computer** and **science** both with passwords **1234**.
 
