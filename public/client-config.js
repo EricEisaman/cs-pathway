@@ -1,5 +1,5 @@
 window.config = {
- gameName:"CS Pathway",
+ gameName:"CS1",
  // https://emojipedia.org/
  emoji:"♡",
  // https://www141.lunapic.com/editor/  http://icoconvert.com/
@@ -15,9 +15,10 @@ window.config = {
  avatar:{
   models:["https://cdn.glitch.com/f54ba682-ab47-46e4-bf61-5e68e6053f18%2Fthing-idle.glb?1532828880828",
           "https://cdn.glitch.com/f54ba682-ab47-46e4-bf61-5e68e6053f18%2Fowl.glb?1532839615976"],
-  faces: ["https://cdn.glitch.com/f54ba682-ab47-46e4-bf61-5e68e6053f18%2Fweebs.png?1532833980859",
+  buttonFaces: ["https://cdn.glitch.com/f54ba682-ab47-46e4-bf61-5e68e6053f18%2Fweebs.png?1532833980859",
           "https://cdn.glitch.com/f54ba682-ab47-46e4-bf61-5e68e6053f18%2Fowl.png?1532839076824"],
-  color: '#fff'
+  buttonColor: '#fff',
+  speed: 140
  },
  sounds:{
   playerJoined: 'https://cdn.glitch.com/162b879e-fd42-40d9-8519-671d783b8c70%2Fbell.mp3?1534013494867',
@@ -57,7 +58,7 @@ window.config = {
  },
  //Soundcloud track numbers from share/embed code
  bgm:{
-  songs: [47209929,265693310,120585130,156420873,180582345,1801713],
+  songs: [187091374,47209929,265693310,120585130,156420873,180582345,1801713],
   volume: 0.15,
   playAll: true,
   initialDelay: 5000
@@ -70,11 +71,15 @@ window.config = {
   toggleMute:'Digit0',
   toggleCursor:'KeyC'
  },
- //Run printVoices() in the client console
+ //Run printVoices() in the game browser console
  voice:{
    name:'Serena',
+   // from 0.1 to 10
    rate: 1,
-   pitch: 1
+   // from 0 to 2
+   pitch: 1,
+   // from 0 to 1
+   volume: 1
  },
  physics:{
    //This gravity affects the players

@@ -35,7 +35,6 @@
     bgm.autoplay = 'autoplay';
     bgm.load();
     if(!window.config.bgm.playAll) bgm.loop = true;
-    bgm.volume = window.config.bgm.volume;
   }
 
 if(window.config.bgm.playAll){
