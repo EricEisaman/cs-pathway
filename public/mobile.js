@@ -39,7 +39,7 @@ class JoystickElement {
     }
 }
 
-class JoystickInner extends JoystickElement {    
+class JoystickInner extends JoystickElement {   
     clamp(x, y, boundary){
         // Trigonometry time!
         // - Who says what you learn in school won't become useful :D
@@ -88,7 +88,9 @@ class Joystick {
     constructor(outer, inner){
         this.state = 'inactive';
         this.outer = new JoystickElement(outer);
+        this.outer.element.style.borderColor = window.config.mobile.joystick_outer_color;
         this.inner = new JoystickInner(inner);
+        this.inner.element.style.backgroundColor = window.config.mobile.joystick_inner_color;
         this.boundary = 32;
         
         this.onactivate = function(){};
@@ -124,8 +126,8 @@ class Joystick {
     
     activate(){
         this.state = 'active';
-        this.outer.element.classList.add('active');
-        
+        //this.outer.element.classList.add('active');
+        this.outer.element.style.borderColor = window.config.mobile.joystick_outer_color;
         if(typeof this.onactivate === 'function'){
             this.onactivate();
         }
@@ -135,7 +137,7 @@ class Joystick {
     
     deactivate(){
         this.state = 'inactive';
-        this.outer.element.classList.remove('active');
+        //this.outer.element.classList.remove('active');
         
         this.inner.move(
             this.inner.current.vector,
@@ -144,16 +146,17 @@ class Joystick {
             () => {
                 this.inner.element.removeAttribute('style');
                 this.inner.current = this.inner.original;
+                this.inner.element.style.backgroundColor = window.config.mobile.joystick_inner_color;
         
                 if(typeof this.ondeactivate === 'function'){
                     this.ondeactivate();
                 }
             }
         );
-        
+      
         return this;
     }
-    
+  
     drag(e){
         
         // if(this.state !== 'active'){
@@ -192,9 +195,8 @@ window.addEventListener('touchstart', function onFirstTouch() {
  
   window.TOUCH = true;
   window.joystick = new Joystick('.joystick-outer', '.joystick-inner');
-
+  
   window.joystick.attachEvents();
-
 
   window.joystick.ondrag = function(){
     let jx = window.joystick.inner.current.vector.x;
@@ -266,7 +268,6 @@ if(AFRAME.utils.device.isMobile()){
     },1000);
   }); 
 }
-
 
 
 document.body.addEventListener("touchstart",function fullScreen(){
