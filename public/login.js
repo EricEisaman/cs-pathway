@@ -7,8 +7,10 @@ if(window.config.theme.fontFamily.length > 0){
   document.querySelector('head').appendChild(link);
   document.querySelector('.login-background').style.fontFamily=`"${window.config.theme.fontFamily}",sans-serif`;
   document.fonts.ready.then(()=>{
-    $('.login').show();
-    $('#un').focus();
+    document.querySelector('a-scene').addEventListener('loaded', function (){
+      $('.login').show();
+      $('#un').focus();
+    }); 
   });
 }else {
   $('.login').show();
