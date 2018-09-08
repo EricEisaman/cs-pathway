@@ -128,6 +128,8 @@ Create your own **.glb** avatar models with <a href="http://pixologic.com/sculpt
 ( plugin for Blender v2.79 <a href="https://github.com/KhronosGroup/glTF-Blender-Exporter" no-opener no-referer>here</a>. Note: Blender v2.80 will have built-in plugin )
 ![.glb export](https://cdn.glitch.com/f54ba682-ab47-46e4-bf61-5e68e6053f18%2Fexport.png?1532962417545)
 
+____
+
 ## Mobile Performance
 
 - Joystick ( forward, backward, yaw )
@@ -140,7 +142,7 @@ Create your own **.glb** avatar models with <a href="http://pixologic.com/sculpt
 ![mobile-1](https://cdn.glitch.com/dd72d0a0-2747-40ff-8463-f7755366f80f%2Fmobile_1.jpg?1535470988578)
 ![mobile-2](https://cdn.glitch.com/dd72d0a0-2747-40ff-8463-f7755366f80f%2Fmobile_2.jpg?1535470988342)
 
-
+____
 
 ## Related Videos
 
