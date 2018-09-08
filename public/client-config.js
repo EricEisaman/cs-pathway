@@ -1,6 +1,6 @@
 window.config = {
  gameName:"CS1",
- // https://emojipedia.org/
+ // https://emojipedia.org/  leave as "" if you want no emoji
  emoji:"♡",
  // https://www141.lunapic.com/editor/  http://icoconvert.com/
  favicon:"https://cdn.glitch.com/684a531a-502e-4b52-a097-a4bc6aaed6cb%2Fstar.ico",
