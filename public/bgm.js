@@ -15,6 +15,7 @@
   var nextSongBtn = document.createElement('button');
   nextSongBtn.innerHTML = "PLAY NEXT SONG";
   nextSongBtn.zIndex = 100;
+  nextSongBtn.style.display = "none";
   nextSongBtn.addEventListener('click',e=>{
     playNextSong();
   });
