@@ -1,5 +1,8 @@
  ![geometry game](https://cdn.glitch.com/162b879e-fd42-40d9-8519-671d783b8c70%2Fgeo-game.gif?1534009918502) 
 # CS1
+
+*“For the things we have to learn before we can do them, we learn by doing them.” 
+― Aristotle, The Nicomachean Ethics*
 ____
 ____
 
