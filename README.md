@@ -76,7 +76,7 @@ ____
 Move with **WASD** and **ARROW** keys.  Jump with the **SPACE** key.
 Toggle music mute with **M** key. Play next song with **P** key. 
 
-![UI](https://cdn.glitch.com/8cdffa44-0009-4d0b-89c7-731fef3fef0b%2FmessageAndAvatar.png?1533445976674)
+![UI](https://cdn.glitch.com/162b879e-fd42-40d9-8519-671d783b8c70%2Fui.png)
 
 Toggle the **Message and Avatar UI** with the **EQUALS** key. **Tab** your way through the UI elements. Once you have finished typing your message or selecting a new avatar, hit **ENTER** to submit.
 
@@ -85,7 +85,7 @@ Note: **Users cannot be logged in more than once simultaneously!**
 
 Pressing the **F** key or clicking the **VR Headset Icon** will take you to fullscreen mode.  Note: in fullscreen mode only movement keys are enabled.  Press the **ESC** key to exit fullscreen mode. 
 
-<a href="https://geometry-game.glitch.me/" no-opener no-referer>**LIVE DEMO**</a>
+Try the <a href="https://geometry-game.glitch.me/" no-opener no-referer>**LIVE DEMO**</a> with test users **computer** and **science** both with passwords **1234**.
 
 
 ____
