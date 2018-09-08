@@ -58,7 +58,7 @@ window.socket.on('players-already-here', o=>{
       "name":o[key].name,
       "data":{"position":o[key].position,"rotation":o[key].rotation,"faceIndex":o[key].faceIndex,"thrust":o[key].thrust}});
   });
-  window.say(`Welcome to ${window.config.gameName}!`);
+  setTimeout(()=>{window.say(`Welcome to ${window.config.gameName}!`);},window.config.voice.welcomeDelay);
 });
 window.socket.on('initial-bodies-state', arr=>{
   if(window.debug){
