@@ -87,7 +87,7 @@ Note: **Users cannot be logged in more than once simultaneously!**
 
 Pressing the **F** key or clicking the **VR Headset Icon**, if enabled in **client-config.js** will take you to fullscreen mode.  Note: in fullscreen mode only movement keys are enabled.  Press the **ESC** key to exit fullscreen mode. 
 
-Try the <a href="https://geometry-game.glitch.me/" no-opener no-referer>**LIVE DEMO**</a> with test users **computer** and **science** both with passwords **1234**.
+Try the <a href="https://geometry-game.glitch.me/" no-opener no-referer>**LIVE DEMO**</a> with test users **computer** and **science** both with password **1234**.
 
 
 ____
