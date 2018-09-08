@@ -19,10 +19,11 @@ In the **client-config.js** set the values for:
   - login overlay color
   - avatar array of face image URLs ( use .png with transparent background )
   - avatar color used for button background 
+  - avatar speed
   - the text color for the messages
   - sound file URL for playerJoined
   - sound file URL for playerLeft
-  - BGM songs
+  - BGM songs, volume and whether to auto play through all songs
   - custom key bindings/behaviors
   - sythesized voice settings
   - physics gravity
